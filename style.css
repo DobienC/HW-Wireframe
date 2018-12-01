@@ -2,6 +2,7 @@
     box-sizing: border-box;
     text-align: center;
     background-color: #333;
+    margin: 0px 40px 0px 40px;
 }
 
 #header,#nav,
@@ -27,14 +28,14 @@
 
 #section{
     float: left;
-    width: 55%;
+    width: 50%;
 }
 
 #aside{
-    margin-left: 40px;
+    margin-left: 10px;
     height: 292px;
     float: left;
-    width: 40%;
+    width: 39%;
 }
 
 #footer{
