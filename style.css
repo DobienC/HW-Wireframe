@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #333;
+}
+
+#header,#nav,
+#section, #h123, 
+#p, #aside,
+#footer{
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+#article{
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #ccc;
+  background: #333;
+}
+
+#header, #nav, #footer{
+    height: 70px;
+}
+
+#section{
+    float: left;
+    width: 55%;
+}
+
+#aside{
+    margin-left: 40px;
+    height: 292px;
+    float: left;
+    width: 40%;
+}
+
+#footer{
+    clear: both;
+}
+
