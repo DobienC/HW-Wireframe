@@ -2,7 +2,6 @@
     box-sizing: border-box;
     text-align: center;
     background-color: #777;
-    margin: 0px 40px 0px 40px;
 }
 
 body{
@@ -17,6 +16,7 @@ body{
   margin-bottom: 20px;
   color: #777;
   background: #ccc;
+  margin: 15px 40px 15px 40px;    
 }
 
 #article{
@@ -33,13 +33,14 @@ body{
 #section{
     float: left;
     width: 50%;
+    margin-right: 10px;
 }
 
 #aside{
-    margin-left: 10px;
-    height: 292px;
+    margin-left: 0px;
+    height: 297px;
     float: left;
-    width: 39%;
+    width: 43.2%;
 }
 
 #footer{
