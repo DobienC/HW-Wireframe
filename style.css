@@ -2,6 +2,8 @@
     box-sizing: border-box;
     text-align: center;
     background-color: #777;
+    width: 960px;
+    /* margin: 0px 40px 0px 40px; */
 }
 
 body{
@@ -9,38 +11,46 @@ body{
 }
 
 #header,#nav,
-#section, #h123, 
+#section, #h123,
 #p, #aside,
 #footer{
   padding: 20px;
   margin-bottom: 20px;
   color: #777;
   background: #ccc;
-  margin: 15px 40px 15px 40px;    
+  margin: 15px 40px 15px 40px;
 }
+
 
 #article{
   padding: 20px;
   margin-bottom: 20px;
   color: #ccc;
   background: #777;
+  width: 480px;
+  /* line-height: 200px; */
 }
 
 #header, #nav, #footer{
     height: 70px;
 }
 
+#h123, #p{
+    width:100px;
+}
+
 #section{
     float: left;
-    width: 50%;
+    width: 520px;
     margin-right: 10px;
+    line-height: 40px;
 }
 
 #aside{
     margin-left: 0px;
-    height: 297px;
+    height: 385px;
     float: left;
-    width: 43.2%;
+    width: 350px;
 }
 
 #footer{
